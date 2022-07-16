@@ -1,0 +1,52 @@
+#head
+{ background-color:#48161D;
+ color:#DBAB42 ; 
+ text-align:center; 
+ border:10px double #DBAB42;
+ font-size:80px;
+ font-family:Freestyle script;
+ margin-top:0px;
+ margin-bottom:2px;
+}
+#styling
+{
+ background-color:#0A151B;
+ color:#E8E8E6;
+ font-size:30px;
+ text-align:center;
+ margin:0px;
+ font-weight:bold;
+ font-size:40px;
+}
+#styling2
+{
+	background-color:#141B25;
+	color:#ECA34D; 
+	font-size:50px; 
+	margin-top:5px;
+	margin-bottom:20px;
+}
+#head2
+{ background-color:#DACBB1;
+ color:#6E2D18 ; 
+ text-align:center; 
+ border:10px solid #404245;
+ font-size:50px;
+ font-family:Blackadder ITC;
+}
+.parent-class
+{
+	background-color:#201C1C;
+	border:8px solid #DBAB42;
+}
+.child-class
+{
+ color:#DBAB42;
+ font-size:30px;
+ margin:0px 0px;
+ font-family:Brush Script MT;
+}
+#style
+{
+	color:#DBAB42;
+}

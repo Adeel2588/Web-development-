@@ -1,0 +1,75 @@
+.image-styling
+{
+	height:108px;
+	width:480px;
+	margin:-19px 10px 10px 507px;
+	padding:10px 10px 10px 10px;
+}
+.head
+{
+	font-size:40px;
+	margin:15px 10px 10px 564px;
+}
+#fname1
+{
+	border-bottom:4px solid #C8C8C8;
+	border-top:hidden;
+	border-right:hidden;
+	border-left:hidden;
+	font-size:18px;
+	margin:30px 10px 10px 564px;
+	width:385px;
+	padding:10px 10px 7px 0px;
+}
+#fname2
+{
+	border-bottom:4px solid #C8C8C8;
+	border-top:hidden;
+	border-right:hidden;
+	border-left:hidden;
+	font-size:18px;
+	margin:30px 10px 10px 564px;
+	width:385px;
+	padding:10px 10px 7px 0px;
+}
+#fname3
+{
+	border-bottom:4px solid #C8C8C8;
+	border-top:hidden;
+	border-right:hidden;
+	border-left:hidden;
+	font-size:18px;
+	margin:30px 10px 10px 564px;
+	width:398px;
+	padding:10px 10px 7px 0px;
+}
+#fname4
+{
+	border-bottom:4px solid #C8C8C8;
+	border-top:hidden;
+	border-right:hidden;
+	border-left:hidden;
+	font-size:18px;
+	margin:30px 10px 10px 564px;
+	width:398px;
+	padding:10px 10px 7px 0px;
+}
+#button-styling
+{
+	background-color:#57B547;
+	color:white;
+	height:55px;
+	width:105px;
+	margin:84px 10px 10px 559px;
+	padding:10px 10px 10px 10px;
+	border-radius:5px;
+	border:1px hidden;
+	font-weight:bold;
+	font-size:14px;
+}
+#ending-line
+{
+	width:500px;
+	margin:10px 10px 10px 514px;
+	color:black;
+}

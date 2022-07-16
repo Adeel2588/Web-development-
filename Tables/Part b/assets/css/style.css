@@ -1,0 +1,76 @@
+body
+{
+	margin:0px;
+}
+.first-table , .first-table-heading, .first-table-data ,.first-table-data1
+{
+	border:1px hidden;
+	border-collapse:collapse;
+	margin:67px 10px 10px 427px;
+	padding:10px 82px 10px 10px;
+	font-size:13px;
+}
+.first-table-heading
+{
+	background-color:#E76357;
+	color:white;
+	text-align:left;
+}
+.first-table-data
+{
+	background-color:#FFFFFF;
+	color:black;
+}
+.first-table-data1
+{
+	background-color:#E9E9E9;
+	color:black;
+}
+.second-table , .second-table-heading, .second-table-data ,.second-table-data1
+{
+	border:1px hidden;
+	border-collapse:collapse;
+	margin:20px 10px 10px 427px;
+	padding:10px 55.5px 10px 9px;
+	font-size:13px;
+}
+.second-table-heading
+{
+	background-color:#33AE5E;
+	color:white;
+	text-align:left;
+}
+.second-table-data
+{
+	background-color:#FFFFFF;
+	color:black;
+}
+.second-table-data1
+{
+	background-color:#E9E9E9;
+	color:black;	
+}
+.third-table , .third-table-heading, .third-table-data ,.third-table-data1
+{
+	border:1px hidden;
+	border-collapse:collapse;
+	margin:20px 10px 10px 427px;
+	padding:10px 71px 10px 11px;
+	font-size:13px;
+}
+.third-table-heading
+{
+	background-color:#2F7EB9;
+	color:white;
+	text-align:left;
+}
+.third-table-data
+{
+	background-color:#FFFFFF;
+	color:black;
+}
+.third-table-data1
+{
+	background-color:#E9E9E9;
+	color:black;
+}
