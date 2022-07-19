@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class 15</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<!--Forms--->
+<h1>Forms</h1>
+<form>
+        <fieldset>
+            <legend>Registration Form</legend>
+		<!--NOT Connected-->
+        <label>Name</label>
+        <input type="text">
+<br>
+    <!--Connected-->
+    <label for="fname">Name</label>
+    <input id="fname" type="text">
+<br>
+        <!--Name And Value-->
+		<label for="fname">Name</label>
+		<input id="fname" type="text" name="name" value="Adu">
+<br>
+	<!--Place Holder-->
+	<label for="fname">Name</label>
+	<input id="fname" type="text" name="name" placeholder="Enter your Name">
+<br>
+		<!--Place Holder and Value-->
+		<label for="fname">Name</label>
+		<input id="fname" type="text" name="name" placeholder="Enter your Name" value="Kadu">
+<br>	
+	<!--Email-->
+	<label for="email">Email</label>
+	<input id="email" type="email" name="email" placeholder="Enter your Email">
+<br>
+		<!--Email-->
+		<label for="pass">Password</label> 
+		<input id="pass" type="password" name="pass" placeholder="Enter your Password">
+<br>
+				<!--Radio Button-->
+				<h2>Radio Button</h2>
+				<input id="male" type="radio" name="gender" value="male">
+				<label for="male">Male</label>
+				<br>
+						<input id="female" type="radio" name="gender" value="female">
+						<label for="female">Female</label>
+						<br>
+				<input id="trans" type="radio" name="gender" value="trans">
+				<label for="trans">Trans</label>
+				<br>
+						<input id="other" type="radio" name="gender" value="other">
+						<label for="other">Other</label>
+						<br>
+	<!--Check-Box-->
+	<h2>Check box</h2>
+	<input id="apple" type="checkbox" name="fruit1" value="apple">
+	<label for="apple">Male</label>
+	<br>
+			<input id="grape" type="checkbox" name="fruit1" value="grape">
+			<label for="grape">Grapes</label>
+			<br>
+	<input id="mango" type="checkbox" name="fruit1" value="mango">
+	<label for="mango">Mango</label>
+	<br>
+			<input id="guava" type="checkbox" name="fruit1" value="guava">
+			<label for="guava">Guava</label>
+			<br>
+	<!--Comments Area-->
+	<h2>Comments Area</h2>
+	<textarea name="meassage" rows="4" col="7"></textarea>
+	<br>
+	<textarea name="meassage" rows="4" col="6" style="width:200px height:200px"></textarea>
+	<br>
+				<!--Submit Button-->
+				<h2>Submit Button</h2>
+				<input type="submit" value="Done">
+				<br>
+				<input type="submit" value="Submit">
+				<br>
+	<!--Choose From Dropdown-->
+	<h2>Choose from Drop-dowm</h2>
+	<label for="semester">Choose Your Semester</label>
+	<select id="semester" name="semester" value="semester">
+	      <option value="semester1">Semester 1</option>
+		  <option value="semester2">Semester 2</option>
+		  <option value="semester3">Semester 3</option>
+		  <option value="semester4">Semester 4</option>
+	</select>
+	<br>
+	<h2>Choose from List</h2>
+	<select id="semester" name="semester" value="semester" size="5" multiple>
+	      <option value="semester1">Semester 1</option>
+		  <option value="semester2">Semester 2</option>
+		  <option value="semester3">Semester 3</option>
+		  <option value="semester4">Semester 4</option>
+	</select>
+</fieldset>
+<fieldset>
+    <legend>Other Attributes</legend>
+	    <h3>Button</h3>
+		<input type="button" name="button" value="Button">
+		<br>
+		<h3>Date</h3>
+		<label for="date">Choose Date</label>
+	    <input id="date" type="date" name="date"><!--How to give value to date-->
+		<br>
+		<h3>Color</h3>
+		<input type="color" name="color" value="#FF3C00">
+		<br>
+		<h3>Number</h3>
+		<label for="link">Select the number</label>
+		<input id="link" type="number" name="number" value="3">
+		<input id="link" type="number" name="number">
+		<h3>Datetime-local</h3>
+		<label for="datetime-local">Enter Datetime-local</label>
+		<input id="datetime-local" type="datetime-local" name="datetime-local">
+		<br>
+		<h3>Image</h3>
+		<label for="image">Image</label>
+		<input id="image" type="image" name="image"><!---Can we put image-->
+		<br>
+	    <h3>Hidden</h3>
+		<label for="hidden">Hidden</label>
+	    <input id="hidden" type="hidden" name="hidden" value="adeel">
+		<br>
+	    <h3>Tel</h3>
+		<label for="link">Enter your Telephone</label>
+	    <input id="link" type="Tel" name="tel" value="0315-4181614">
+		<br>
+		<h3>Search</h3>
+		<label for="link">Type to Search</label>
+	    <input id="link" type="Search" name="search">
+		<br>
+		<h3>URL</h3>
+		<label for="link">Type your URL</label>
+	    <input id="link" type="Url" name="url">
+		<br>		
+		<h3>File</h3>
+		<label for="link">Choose the File</label>
+	    <input id="link" type="File" name="file">
+		<br>
+		<h3>Month</h3>
+		<label for="link">Choose the Month</label>
+	    <input id="link" type="Month" name="month">
+		<br>		
+		<h3>Range</h3>
+		<label for="link">Choose your Range</label>
+	    <input id="link" type="Range" name="range">
+		<br>		
+		<h3>Time</h3>
+		<label for="link">Set Time</label>
+	    <input id="link" type="Time" name="time">
+		<br>
+		<h3>Week</h3>
+		<label for="link">Choose the week</label>
+	    <input id="link" type="week" name="week">
+		<br>
+</fieldset>
+</body>
+</html>
